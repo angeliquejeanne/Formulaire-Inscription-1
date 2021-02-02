@@ -1,0 +1,61 @@
+body
+{
+    font-family : roboto;
+    background: grey;
+}
+.inscription
+{
+    height: 65vh;
+    margin : 2em 10%;
+    background: #d0ff01;
+    padding: .5em;
+    border-radius : 5px;
+    box-shadow : 1px 1px 5px #9501cfc2
+}
+.inscription form, .inscription .message
+{
+    text-align: center;
+    width: 100%;
+}
+.clearfix:after 
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix 
+{
+    display: block;
+}
+input
+{
+    width: 50%;
+    height: 3em;
+}
+button
+{
+    width: 50%;
+    height: 3em;
+    background-color: hotpink;
+    border: 1px solid orangered;
+    color: blue;
+}
+html[xmlns] .clearfix 
+{
+    display: block;
+}
+* html .clearfix 
+{
+    height: 1%;
+}
+html 
+{ 
+    box-sizing : border-box
+}
+*, *:after, *:before 
+{
+    box-sizing: inherit
+}
